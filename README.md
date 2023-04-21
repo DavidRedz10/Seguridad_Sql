@@ -9,7 +9,7 @@ Este es un proyecto de Android Studio que muestra cómo crear una base de datos 
 
 ## Capturas de pantalla
 
-![Captura de pantalla 1](/screenshots/screenshot1.png)
+https://github.com/DavidRedz10/Seguridad_Sql/blob/master/photo.jpg
 ![Captura de pantalla 2](/screenshots/screenshot2.png)
 
 ## Requisitos previos
