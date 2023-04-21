@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Placa" />
+
+        <EditText
+            android:id="@+id/txtPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombre"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color" />
+
+        <EditText
+            android:id="@+id/txtApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewTelefono"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dueño" />
+
+        <EditText
+            android:id="@+id/txtCedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/viewClaseVehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clase Vehiculo" />
+
+        <EditText
+            android:id="@+id/txtClase_Vehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/viewSerial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serial" />
+
+        <EditText
+            android:id="@+id/txtSerial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marca" />
+
+        <EditText
+            android:id="@+id/txtMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewMarca"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color" />
+
+        <EditText
+            android:id="@+id/txtColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewMarca"
+            android:textSize="18sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar imagen" />
+
+
+
+        <ImageView
+            android:id="@+id/img_preview"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            />
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="Subir imagen" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

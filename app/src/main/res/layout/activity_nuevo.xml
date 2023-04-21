@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewCedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cedula" />
+
+        <EditText
+            android:id="@+id/txtCedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombre"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombres" />
+
+        <EditText
+            android:id="@+id/txtNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewTelefono"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellidos" />
+
+        <EditText
+            android:id="@+id/txtApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/viewDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direccion" />
+
+        <EditText
+            android:id="@+id/txtDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/viewSerial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono" />
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewMarca"
+            android:textSize="18sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar imagen" />
+
+
+
+        <ImageView
+            android:id="@+id/img_preview"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            />
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subir imagen" />
+
+    </LinearLayout>
+</LinearLayout>

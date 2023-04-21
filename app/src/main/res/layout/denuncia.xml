@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Placa" />
+
+        <EditText
+            android:id="@+id/txtPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNombre"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewDenuncia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denuncia" />
+
+        <EditText
+            android:id="@+id/txtDenuncia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewTelefono"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewSpoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPOA" />
+
+        <EditText
+            android:id="@+id/txtSpoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewFiscalia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fiscalia" />
+
+        <EditText
+            android:id="@+id/txtFiscalia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/viewJuzgado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Juzgado" />
+
+        <EditText
+            android:id="@+id/txtJuzgado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha" />
+
+        <EditText
+            android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewObservacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observacion" />
+
+        <EditText
+            android:id="@+id/txtObservacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnGuarda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="guardar"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
